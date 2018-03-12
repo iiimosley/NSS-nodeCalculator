@@ -1,6 +1,6 @@
 # NSS Node.Js Command Line Calculator
 
-### Goals:
+### Goals
 Building a modularized Node application implementing TDD practices
 
 ### Directives
@@ -14,12 +14,11 @@ Conditional statements were applied to the Command Line Interface (`cli.js`) to 
 To run a basic arithmetic operation on a series of numbers, please run the following command with either operator (`add`, `subtract`, `multiply`, `divide`) and any series of numbers.
 ```
 ./js/cli.js [operator] [numbers of choosing, separated by a space]
-
 ```
 The order of operations will executed as the numbers are written out, i.e.:
 ```
 ./js/cli.js add 4 8 16
-// equivalent to...
-4+8+16
+
+// equivalent to:  4+8+16
 ```
 
