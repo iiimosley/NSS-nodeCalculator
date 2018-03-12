@@ -13,11 +13,11 @@ Conditional statements were applied to the Command Line Interface (`cli.js`) to 
 ### Functionality
 To run a basic arithmetic operation on a series of numbers, please run the following command with either operator (`add`, `subtract`, `multiply`, `divide`) and any series of numbers.
 ```
-./js/cli.js [operator] [numbers of choosing, separated by a space]
+$ ./js/cli.js [operator] [numbers of choosing, separated by a space]
 ```
 The order of operations will executed as the numbers are written out, i.e.:
 ```
-./js/cli.js add 4 8 16
+$ ./js/cli.js add 4 8 16
 
 // equivalent to:  4+8+16
 ```
